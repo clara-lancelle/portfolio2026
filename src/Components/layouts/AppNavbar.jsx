@@ -10,16 +10,19 @@ import { Link } from "react-router-dom";
 export default function AppNavbar() {
     return (
         <Navbar fluid rounded>
-            <NavbarBrand as={Link} href="https://porfolio.lncl.fr">
+            <Link
+                to="/"
+                className="flex items-center space-x-3 rtl:space-x-reverse"
+            >
                 <img
                     src="/icon.png"
                     className="mr-3 h-6 sm:h-9"
                     alt="Lancelle Clara - image du portfolio"
                 />
-                <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+                <span className="self-center whitespace-nowrap text-xl font-semibold text-amber-500">
                     Lancelle Clara
                 </span>
-            </NavbarBrand>
+            </Link>
             <NavbarToggle />
             <NavbarCollapse>
                 <NavbarLink href="#" active>

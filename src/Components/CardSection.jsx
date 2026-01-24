@@ -7,47 +7,63 @@ import { Card } from "flowbite-react";
 export default function CardSection() {
     return (
         <div className="flex my-4 justify-evenly">
-            <Card
-                className="max-w-sm"
-                imgAlt="Meaningful alt text for an image that is not purely decorative"
-                imgSrc={creationImg}
-            >
-                <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <div class="bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-base shadow-xs">
+                <img
+                    class="rounded-base w-60 mx-auto"
+                    src={creationImg}
+                    alt="Création de votre site web"
+                />
+
+                <h5 class="mt-6 mb-2 text-2xl font-semibold tracking-tight text-heading">
                     Conception et création de votre site clé en mains
                 </h5>
-                <p className="font-normal text-gray-700 dark:text-gray-400">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far, in reverse chronological order.
+
+                <p class=" text-body text-sm">
+                    Je vous accompagne de la conception à la mise en ligne de
+                    votre site web, avec une solution adaptée à vos objectifs.
+                    Que vous ayez besoin d'un site sur mesure, moderne et
+                    performant, ou d’un site WordPress clé en mains, fiable et
+                    facile à administrer, je vous propose une solution efficace
+                    pour valoriser votre activité.
                 </p>
-            </Card>
-            <Card
-                className="max-w-sm"
-                imgAlt="Meaningful alt text for an image that is not purely decorative"
-                imgSrc={referencementImg}
-            >
-                <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Penser le référencement de votre site afin de toucher votre
-                    public
+            </div>
+            <div class="bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-base shadow-xs">
+                <img
+                    class="rounded-base w-60 mx-auto"
+                    src={referencementImg}
+                    alt="Référencement de votre site web"
+                />
+
+                <h5 class="mt-6 mb-2 text-2xl font-semibold tracking-tight text-heading">
+                    Référencement de votre site afin de toucher votre public
                 </h5>
-                <p className="font-normal text-gray-700 dark:text-gray-400">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far, in reverse chronological order.
+
+                <p class=" text-body text-sm">
+                    Votre site sera conçu pour attirer naturellement vos futurs
+                    clients sur les moteurs de recherche. Le référencement n’est
+                    pas un détail : il transforme votre site en un vrai levier
+                    pour développer votre activité.
                 </p>
-            </Card>
-            <Card
-                className="max-w-sm"
-                imgAlt="Meaningful alt text for an image that is not purely decorative"
-                imgSrc={maintenanceImg}
-            >
-                <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Maintenir votre site web existant ou celui que nous créerons
-                    ensemble
+            </div>
+            <div class="bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-base shadow-xs">
+                <img
+                    class="rounded-base w-60 mx-auto"
+                    src={maintenanceImg}
+                    alt="Maintenance de votre site web"
+                />
+
+                <h5 class="mt-6 mb-2 text-2xl font-semibold tracking-tight text-heading">
+                    Maintenance de votre site web existant
                 </h5>
-                <p className="font-normal text-gray-700 dark:text-gray-400">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far, in reverse chronological order.
+
+                <p class=" text-body text-sm">
+                    Je vous accompagne pour assurer la sécurité et la fiabilité
+                    de votre site, qu’il soit déjà en ligne ou que nous le
+                    construisions ensemble. Grâce à un suivi régulier des mises
+                    à jour et des protections nécessaires, votre site reste
+                    stable, protégé contre les attaques et performant.
                 </p>
-            </Card>
+            </div>
         </div>
     );
 }
