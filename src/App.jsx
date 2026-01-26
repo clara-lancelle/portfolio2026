@@ -3,6 +3,7 @@ import AppNavbar from "./Components/layouts/AppNavbar";
 import Homepage from "./Components/layouts/Homepage";
 import Cv from "./Components/Cv";
 import AppFooter from "./Components/layouts/AppFooter";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 </Routes>
             </div>
             <AppFooter />
+            <Analytics />
         </div>
     );
 }
