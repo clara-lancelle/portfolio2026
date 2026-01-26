@@ -23,7 +23,7 @@ export default function AppNavbar() {
                     Lancelle Clara
                 </span>
             </Link>
-            <NavbarToggle />
+            {/* <NavbarToggle />
             <NavbarCollapse>
                 <NavbarLink href="#" active>
                     Profil
@@ -32,6 +32,7 @@ export default function AppNavbar() {
                 <NavbarLink href="#">Portfolio</NavbarLink>
                 <NavbarLink href="#">Contact</NavbarLink>
             </NavbarCollapse>
+            */}
         </Navbar>
     );
 }

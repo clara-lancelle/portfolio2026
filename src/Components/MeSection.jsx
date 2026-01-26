@@ -5,27 +5,28 @@ import { Button } from "flowbite-react";
 
 export default function MeSection() {
     return (
-        <div className="flex flex-row bg-gray-100">
-            <div className="w-3/4 flex justify-end">
+        <section className="flex flex-row bg-gray-100">
+            <div className="w-3/4 hidden lg:flex lg:h-fit xl:h-auto justify-end">
                 <img src={MePng} alt="Clara Lancelle" />
             </div>
             <div className="flex flex-col gap-4 m-6">
-                <h2 className="text-4xl my-2 font-bold tracking-tight text-gray-900 dark:text-white">
+                <h2 className="text-4xl my-2 font-bold tracking-tight text-gray-900">
                     A propos de moi
                 </h2>
                 <h3 className="text-1xl font-bold tracking-tight  text-gray-900">
                     Je m'appelle
                     <span className="text-amber-500"> Clara Lancelle</span>,
                 </h3>
-                <div className="text-sm flex flex-col gap-4 w-3/4">
+                <div className="text-sm flex flex-col gap-4 text-justify md:w-3/4">
                     <p>
                         Je suis une développeuse web, freelance à Nantes (44).
                     </p>
                     <p>
                         {" "}
                         Je travail avec différentes technologies en fonction des
-                        besoin d'un site web : React/Vite, PHP/Symphony,
-                        Wordpress et Prestashop.
+                        besoin d'un site web : <strong>React/Vite</strong>,{" "}
+                        <strong>PHP/Symfony</strong>, <strong>Wordpress</strong>{" "}
+                        et <strong>Prestashop</strong> .
                     </p>
                     <p>
                         Je suis diplomée d'une{" "}
@@ -44,11 +45,11 @@ export default function MeSection() {
                 <Button
                     as={Link}
                     to={"/cv"}
-                    className="bg-amber-400 text-white w-80"
+                    className="bg-amber-400 text-white w-80 my-6 self-center md:self-start"
                 >
                     Consulter mon CV en ligne <GrLinkNext className="ml-2" />
                 </Button>
             </div>
-        </div>
+        </section>
     );
 }

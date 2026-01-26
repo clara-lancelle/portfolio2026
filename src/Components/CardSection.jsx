@@ -6,19 +6,19 @@ import { Card } from "flowbite-react";
 
 export default function CardSection() {
     return (
-        <div className="flex my-4 justify-evenly">
+        <div className="flex flex-row flex-wrap my-4 justify-evenly">
             <div class="bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-base shadow-xs">
                 <img
-                    class="rounded-base w-60 mx-auto"
+                    class="rounded-base w-52 md:w-60 mx-auto"
                     src={creationImg}
                     alt="Création de votre site web"
                 />
 
-                <h5 class="mt-6 mb-2 text-2xl font-semibold tracking-tight text-heading">
+                <h5 class="mt-4 md:mt-6 mb-2 text-1xl md:text-2xl font-semibold tracking-tight text-heading">
                     Conception et création de votre site clé en mains
                 </h5>
 
-                <p class=" text-body text-sm">
+                <p class=" text-body text-sm text-justify">
                     Je vous accompagne de la conception à la mise en ligne de
                     votre site web, avec une solution adaptée à vos objectifs.
                     Que vous ayez besoin d'un site sur mesure, moderne et
@@ -29,12 +29,12 @@ export default function CardSection() {
             </div>
             <div class="bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-base shadow-xs">
                 <img
-                    class="rounded-base w-60 mx-auto"
+                    class="rounded-base w-52 md:w-60 mx-auto"
                     src={referencementImg}
                     alt="Référencement de votre site web"
                 />
 
-                <h5 class="mt-6 mb-2 text-2xl font-semibold tracking-tight text-heading">
+                <h5 class="mt-4 md:mt-6 mb-2 text-1xl md:text-2xl font-semibold tracking-tight text-heading">
                     Référencement de votre site afin de toucher votre public
                 </h5>
 
@@ -47,12 +47,12 @@ export default function CardSection() {
             </div>
             <div class="bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-base shadow-xs">
                 <img
-                    class="rounded-base w-60 mx-auto"
+                    class="rounded-base w-52 md:w-60 mx-auto"
                     src={maintenanceImg}
                     alt="Maintenance de votre site web"
                 />
 
-                <h5 class="mt-6 mb-2 text-2xl font-semibold tracking-tight text-heading">
+                <h5 class="mt-4 md:mt-6 mb-2 text-1xl md:text-2xl font-semibold tracking-tight text-heading">
                     Maintenance de votre site web existant
                 </h5>
 

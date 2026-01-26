@@ -12,50 +12,95 @@ import { HiArrowNarrowRight, HiCalendar } from "react-icons/hi";
 
 export default function Cv() {
     return (
-        <div className="flex w-3/4 center m-auto my-2">
+        <div className="flex w-4/5 md:w-2/3 center m-auto my-2">
             <Timeline>
                 <TimelineItem>
                     <TimelinePoint icon={HiCalendar} />
                     <TimelineContent>
-                        <TimelineTime>February 2022</TimelineTime>
+                        <TimelineTime>
+                            Septembre 2024 - Novembre 2025
+                        </TimelineTime>
                         <TimelineTitle>
-                            Application UI code in Tailwind CSS
+                            Chargée de documentation IT - VALFRANCE
                         </TimelineTitle>
                         <TimelineBody>
-                            Get access to over 20+ pages including a dashboard
-                            layout, charts, kanban board, calendar, and
-                            pre-order E-commerce & Marketing pages.
-                        </TimelineBody>
-                        <Button color="gray">
-                            Learn More
-                            <HiArrowNarrowRight className="ml-2 h-3 w-3" />
-                        </Button>
-                    </TimelineContent>
-                </TimelineItem>
-                <TimelineItem>
-                    <TimelinePoint icon={HiCalendar} />
-                    <TimelineContent>
-                        <TimelineTime>March 2022</TimelineTime>
-                        <TimelineTitle>
-                            Marketing UI design in Figma
-                        </TimelineTitle>
-                        <TimelineBody>
-                            All of the pages and components are first designed
-                            in Figma and we keep a parity between the two
-                            versions even as we update the project.
+                            <strong>
+                                Coopérative Agricole Valfrance, Senlis (60).
+                            </strong>
                         </TimelineBody>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
                     <TimelinePoint icon={HiCalendar} />
                     <TimelineContent>
-                        <TimelineTime>April 2022</TimelineTime>
+                        <TimelineTime>Septembre 2023 - Aout 2024</TimelineTime>
                         <TimelineTitle>
-                            E-Commerce UI code in Tailwind CSS
+                            Licence informatique du CNAM (Bac+3).
                         </TimelineTitle>
-                        <TimelineBody>
-                            Get started with dozens of web components and
-                            interactive elements built on top of Tailwind CSS.
+                        <TimelineBody className="text-sm text-justify">
+                            <strong>
+                                Licence générale informatique du CNAM
+                            </strong>
+                            , mention développement web de l'UFA Saint-Vincent,
+                            Senlis (60). Réalisée en <strong>Alternance</strong>{" "}
+                            au sein de l'agence web{" "}
+                            <strong>MozArtsduWeb</strong>, Chantilly (60).
+                            Réalisation de sites web Prestashop, Wordpress,
+                            Laravel. Apprentissage du fonctionnement et des
+                            process propres à l'entreprise.
+                        </TimelineBody>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelinePoint icon={HiCalendar} />
+                    <TimelineContent>
+                        <TimelineTime>Avril - Septembre 2023</TimelineTime>
+                        <TimelineTitle>
+                            Apprentissage en autodidacte.
+                        </TimelineTitle>
+                        <TimelineBody className="text-sm text-justify">
+                            Apprentissage du langage Python ainsi que de ses
+                            Frameworks Django et Flask. Approfondissement de mon
+                            apprentissage de Docker et du framework PHP Symfony.
+                        </TimelineBody>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelinePoint icon={HiCalendar} />
+                    <TimelineContent>
+                        <TimelineTime>Octorbre 2022 - Avril 2023</TimelineTime>
+                        <TimelineTitle>
+                            Fromation "Développeur web et web mobile" (Bac +2).
+                        </TimelineTitle>
+                        <TimelineBody className="text-sm text-justify">
+                            Ecole du numérique, La Manu, Compiègne (60). Cette
+                            formation intensive m'a permis d'obtenir le{" "}
+                            <strong>
+                                titre professionnel d'Etat (RNCP 311114, Bac+2)
+                            </strong>
+                            . J'ai ainsi pu éprouver mon apprentissage
+                            personnel, rectifier et consolider mes
+                            connaissances.
+                        </TimelineBody>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelinePoint icon={HiCalendar} />
+                    <TimelineContent>
+                        <TimelineTime>
+                            Septembre 2021 - Octobre 2022
+                        </TimelineTime>
+                        <TimelineTitle>
+                            Apprentissage en autodidacte des bases du
+                            développement web.
+                        </TimelineTitle>
+                        <TimelineBody className="text-sm text-justify">
+                            Durant un an, via des sources en ligne telles que
+                            <strong> Pierre Giraud </strong>et
+                            <strong> Openclassroom</strong>, j'ai étudié et
+                            expérimenté différents langages et logiciels. J'ai
+                            obtenus de nombreux certificats grâce au cours
+                            validés par OpenClassroom.
                         </TimelineBody>
                     </TimelineContent>
                 </TimelineItem>

@@ -1,7 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import AppNavbar from "./Components/layouts/AppNavbar";
-import Homepage from "./Components/Homepage";
+import Homepage from "./Components/layouts/Homepage";
 import Cv from "./Components/Cv";
+import AppFooter from "./Components/layouts/AppFooter";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
                     <Route path="/cv" element={<Cv />} />
                 </Routes>
             </div>
+            <AppFooter />
         </div>
     );
 }
