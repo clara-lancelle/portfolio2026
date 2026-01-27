@@ -14,10 +14,14 @@ export default function Contact() {
                     to={`https://www.linkedin.com/in/clara-lancelle-159634238/`}
                     target="_blank"
                 >
-                    <ListItem icon={BsLinkedin}> Via Linkedin</ListItem>
+                    <ListItem icon={BsLinkedin}>
+                        Via Linkedin : Clara Lancelle{" "}
+                    </ListItem>
                 </Link>
                 <Link className="text-gray-900" to={"mailto:contact@lncl.fr"}>
-                    <ListItem icon={BsEnvelope}>Par email</ListItem>
+                    <ListItem icon={BsEnvelope}>
+                        Par email : contact@lncl.fr{" "}
+                    </ListItem>
                 </Link>
             </List>
         </section>
