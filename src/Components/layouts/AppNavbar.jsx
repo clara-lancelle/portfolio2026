@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 export default function AppNavbar() {
     return (
-        <Navbar fluid rounded>
+        <Navbar fluid rounded className="fixed top-0 w-full">
             <Link
                 to="/"
                 className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -23,16 +23,15 @@ export default function AppNavbar() {
                     Lancelle Clara
                 </span>
             </Link>
-            {/* <NavbarToggle />
+            <NavbarToggle />
             <NavbarCollapse>
-                <NavbarLink href="#" active>
+                <NavbarLink href="/#me" active>
                     Profil
                 </NavbarLink>
-                <NavbarLink href="#">Compétences</NavbarLink>
-                <NavbarLink href="#">Portfolio</NavbarLink>
-                <NavbarLink href="#">Contact</NavbarLink>
+                <NavbarLink href="/#skills">Compétences</NavbarLink>
+                <NavbarLink href="/cv">Portfolio</NavbarLink>
+                <NavbarLink href="/#contact">Contact</NavbarLink>
             </NavbarCollapse>
-            */}
         </Navbar>
     );
 }
