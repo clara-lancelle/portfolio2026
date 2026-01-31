@@ -6,8 +6,9 @@ import { Button } from "flowbite-react";
 export default function MeSection() {
     return (
         <section
-            className="flex flex-col lg:flex-row bg-gray-100"
-            aria-labelledby="me-title"
+            id="me"
+            className="flex lg:mt-8 scroll-mt-20 flex-col lg:flex-row bg-gray-100"
+            aria-labelledby="section-title"
         >
             {/* Image */}
             <div className="w-full lg:w-3/4 hidden lg:flex  justify-end">
@@ -19,9 +20,9 @@ export default function MeSection() {
             </div>
 
             {/* Texte */}
-            <div id="me" className="flex flex-col gap-4 m-6">
+            <div className="flex flex-col gap-4 m-6">
                 <h1
-                    id="me-title"
+                    id="section-title"
                     className="text-4xl my-2 font-bold tracking-tight text-gray-900"
                 >
                     À propos de moi

@@ -4,8 +4,10 @@ import Homepage from "./Components/layouts/Homepage";
 import Cv from "./Components/Cv";
 import AppFooter from "./Components/layouts/AppFooter";
 import { Analytics } from "@vercel/analytics/react";
+import useScrollToHash from "./Hooks/useScrollToHash";
 
 function App() {
+    useScrollToHash();
     return (
         <div className="min-h-screen flex flex-col">
             <AppNavbar />
