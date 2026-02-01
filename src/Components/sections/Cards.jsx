@@ -1,7 +1,7 @@
-import creationImg from "../../assets/crea.png";
-import maintenanceImg from "../../assets/maintenance.png";
-import referencementImg from "../../assets/ref.png";
-import mobileImg from "../../assets/appli.png";
+import creationImg from "../../assets/cards/crea.png";
+import maintenanceImg from "../../assets/cards/maintenance.png";
+import referencementImg from "../../assets/cards/ref.png";
+import mobileImg from "../../assets/cards/appli.png";
 
 import { Card } from "flowbite-react";
 

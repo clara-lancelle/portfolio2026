@@ -13,7 +13,7 @@
     {
       "@type": "Person",
       "@id": "https://lancelle-clara.lncl.fr/#person",
-      "name": "<Clara Lancelle>",
+      "name": "Clara Lancelle",
       "jobTitle": "Développeuse web et d'applications mobiles freelance",
       "url": "https://lancelle-clara.lncl.fr",
       "image": "https://lancelle-clara.lncl.fr/icon.jpg",
@@ -37,7 +37,7 @@
         "Flex",
         "Performance web",
         "SEO",
-        "Wordpress",
+        "WordPress",
         "WooCommerce",
         "Prestashop"
       ],
@@ -48,20 +48,17 @@
     {
       "@type": "ProfessionalService",
       "@id": "https://lancelle-clara.lncl.fr/#service",
-      "address": {
-        "@type": 
-          "PostalAddress",
-          "addressLocality": "Nantes",
-          "addressRegion": "Loire-Atlantique",
-          "postalCode": "44000",
-          "addressCountry": "France",
-          "streetAddress" : " "
-        },
-      "name": "<Clara Lancelle – Développeuse web et applications mobiles freelance>",
+      "name": "Clara Lancelle – Développeuse web et applications mobiles freelance",
       "url": "https://lancelle-clara.lncl.fr",
       "image": "https://lancelle-clara.lncl.fr/icon.jpg",
-      "telephone" : " ",
-      "priceRange" : "100 - 1000 euros",
+      "priceRange": "À partir de 100€",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Nantes",
+        "addressRegion": "Loire-Atlantique",
+        "postalCode": "44000",
+        "addressCountry": "FR"
+      },
       "provider": {
         "@id": "https://lancelle-clara.lncl.fr/#person"
       },
@@ -75,10 +72,54 @@
         "Application React Native",
         "Application Android"
       ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://popcorn.lncl.fr/#project",
+      "name": "Popcorn",
+      "url": "https://popcorn.lncl.fr",
+      "description": "Application web et PWA développée en React/Vite permettant de découvrir les derniers films via l’API IMDB, de rechercher des films, consulter leurs informations détaillées et gérer des favoris avec stockage local.",
+      "dateCreated": "2024-06-01",
+      "applicationCategory": "WebApplication",
+      "operatingSystem": "Web",
+      "creator": {
+        "@id": "https://lancelle-clara.lncl.fr/#person"
+      },
+      "keywords": [
+        "React",
+        "Vite",
+        "PWA",
+        "API IMDB",
+        "Tailwind",
+        "Flowbite"
+      ],
+      "image": "https://lancelle-clara.lncl.fr/src/assets/projects/popcorn.png"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://password-generator.lncl.fr/#project",
+      "name": "Password Generator",
+      "url": "https://password-generator.lncl.fr",
+      "description": "Générateur de mots de passe sécurisés sous forme de site web et PWA, conçu pour la performance, la simplicité d’utilisation et la sécurité.",
+      "dateCreated": "2024-03-01",
+      "applicationCategory": "WebApplication",
+      "operatingSystem": "Web",
+      "creator": {
+        "@id": "https://lancelle-clara.lncl.fr/#person"
+      },
+      "keywords": [
+        "PWA",
+        "React",
+        "Vite",
+        "Sécurité",
+        "Génération de mots de passe"
+      ],
+      "image": "https://lancelle-clara.lncl.fr/src/assets/projects/pass.png"
     }
   ]
 }
 </script>
+
   </head>
   <body>
     <div id="root"></div>
