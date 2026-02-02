@@ -1,3 +1,8 @@
+//IMG
+import popcornImg from "../assets/projects/popcorn.png";
+import passImg from "../assets/projects/pass.png";
+import comingImg from "../assets/projects/coming.png";
+
 export const projects = [
     {
         id: 1,
@@ -7,7 +12,7 @@ export const projects = [
         date: "2025-11-01",
         type: ["React", "Vite", "PWA"],
         techno: ["React/Vite"],
-        image: "/src/assets/projects/popcorn.png",
+        image: popcornImg,
         description: {
             intro: "Application web moderne développée en React et Vite pour découvrir les dernières sorties cinéma et de rechercher des films via l’API IMDB.",
             highlight:
@@ -31,7 +36,7 @@ export const projects = [
         date: "2025-01-01",
         type: ["PWA", "Web"],
         techno: ["React/Vite"],
-        image: "/src/assets/projects/pass.png",
+        image: passImg,
         description: {
             intro: "Application web développée en React et Vite permettant de générer facilement des mots de passe sécurisés en toute sécurité.",
             highlight:
@@ -53,7 +58,7 @@ export const projects = [
         title: "Projet React Native",
         date: "2023-01-01",
         techno: ["React Native"],
-        image: "/src/assets/projects/coming.png",
+        image: comingImg,
         description: { details: "Projet mobile à venir." },
     },
     {
@@ -61,7 +66,7 @@ export const projects = [
         title: "Projet Symfony",
         date: "2022-01-01",
         techno: ["PHP Symfony"],
-        image: "/src/assets/projects/coming.png",
+        image: comingImg,
         description: { details: "Projet backend / API." },
     },
 ];
