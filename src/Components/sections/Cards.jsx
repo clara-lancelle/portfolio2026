@@ -9,7 +9,7 @@ export default function Cards() {
     return (
         <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 my-4 justify-items-center">
             {/* Card 1 - Création */}
-            <Card className="bg-neutral-primary-soft p-4 border rounded-base shadow-xs w-full max-w-xs">
+            <Card className="bg-neutral-primary-soft p-0 border rounded-base shadow-xs w-full max-w-xs">
                 <img
                     className="rounded-base w-40 md:w-48 mx-auto"
                     src={creationImg}

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { projects } from "../../data/ProjectsData";
+import { LuSquareArrowOutUpRight } from "react-icons/lu";
 import { Card, Badge, Select } from "flowbite-react";
 
 export default function Projects() {
@@ -17,10 +18,13 @@ export default function Projects() {
         );
 
     return (
-        <section id="projects" className="max-w-6xl mx-auto px-6 py-20">
+        <section
+            id="projects"
+            className="max-w-6xl mx-auto px-6 pb-10 md:pb-20"
+        >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Projets</h2>
 
-            <p className="text-gray-600 max-w-2xl mb-10">
+            <p className="text-gray-600 max-w-2xl mb-10 text-sm md:text-base">
                 Une sélection de projets web et mobiles que j’ai conçus et
                 développés, mettant en œuvre différentes technologies et
                 approches produit.
@@ -50,7 +54,7 @@ export default function Projects() {
                         key={project.id}
                         className="group transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
                     >
-                        <div className="relative overflow-hidden rounded-md max-h-64">
+                        <div className="relative overflow-hidden rounded-md max-h-72">
                             <img
                                 src={project.image}
                                 alt={`Projet ${project.title}`}
@@ -65,7 +69,8 @@ export default function Projects() {
                                     rel="noopener noreferrer"
                                     className="absolute inset-0 flex items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white font-medium"
                                 >
-                                    Voir le projet →
+                                    Consulter le projet en ligne {"     "}
+                                    <LuSquareArrowOutUpRight className="ml-2" />
                                 </a>
                             )}
                         </div>
@@ -96,9 +101,24 @@ export default function Projects() {
                                 ))}
                             </div>
 
-                            <p className="text-sm text-gray-600 flex-grow">
-                                {project.description}
-                            </p>
+                            <div className="text-justify flex flex-col gap-2">
+                                {project.description.intro && (
+                                    <p className="text-sm text-gray-600">
+                                        {project.description.intro}
+                                    </p>
+                                )}
+                                {project.description.highlight && (
+                                    <p className="text-sm font-medium text-gray-800">
+                                        {project.description.highlight}
+                                    </p>
+                                )}
+
+                                {project.description.details && (
+                                    <p className="text-sm text-gray-600">
+                                        {project.description.details}
+                                    </p>
+                                )}
+                            </div>
                         </div>
                     </Card>
                 ))}

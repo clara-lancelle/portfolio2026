@@ -4,12 +4,18 @@ export const projects = [
         title: "Popcorn",
         slug: "popcorn",
         url: "https://popcorn.lncl.fr",
-        date: "2024-06-01",
+        date: "2025-11-01",
         type: ["React", "Vite", "PWA"],
         techno: ["React/Vite"],
         image: "/src/assets/projects/popcorn.png",
-        description:
-            "Application web moderne développée en React et Vite, Popcorn permet de découvrir les dernières sorties cinéma et de rechercher n’importe quel film via l’API IMDB. L’application peut être installée directement depuis le navigateur comme une application mobile, fonctionne rapidement et sans compte, et offre une expérience fluide sur ordinateur comme sur mobile. Les utilisateurs peuvent consulter les informations détaillées des films (casting, notes, synopsis), ajouter des favoris, noter et commenter les films, avec des données stockées localement sur leur appareil.",
+        description: {
+            intro: "Application web moderne développée en React et Vite pour découvrir les dernières sorties cinéma et de rechercher des films via l’API IMDB.",
+            highlight:
+                "Installable directement depuis le navigateur comme une application mobile, accessible sur tous les écrans.",
+            details:
+                "Les utilisateurs peuvent consulter les informations détaillées des films, gérer leurs favoris, noter et commenter les contenus, avec un stockage local des données.",
+        },
+
         features: [
             "Recherche de films",
             "Favoris, notes et commentaires",
@@ -22,12 +28,18 @@ export const projects = [
         title: "Password Generator",
         slug: "password-generator",
         url: "https://password-generator.lncl.fr",
-        date: "2024-03-01",
+        date: "2025-01-01",
         type: ["PWA", "Web"],
         techno: ["React/Vite"],
         image: "/src/assets/projects/pass.png",
-        description:
-            "Application web progressive (Téléchargeable depuis le navigateur) permettant de générer des mots de passe sécurisés, pensé pour la performance, la simplicité d’utilisation et la sécurité.",
+        description: {
+            intro: "Application web développée en React et Vite permettant de générer facilement des mots de passe sécurisés en toute sécurité.",
+            highlight:
+                "Installable depuis le navigateur comme une application mobile, l’outil est rapide, léger et utilisable même hors connexion.",
+            details:
+                "Génération et copie instantanée de mots de passe directement sur l’appareil de l’utilisateur, sans stockage ni transmission de données.",
+        },
+
         features: [
             "Génération de mots de passe sécurisés",
             "Interface simple et rapide",
@@ -42,7 +54,7 @@ export const projects = [
         date: "2023-01-01",
         techno: ["React Native"],
         image: "/src/assets/projects/coming.png",
-        description: "Projet mobile à venir.",
+        description: { details: "Projet mobile à venir." },
     },
     {
         id: 4,
@@ -50,6 +62,6 @@ export const projects = [
         date: "2022-01-01",
         techno: ["PHP Symfony"],
         image: "/src/assets/projects/coming.png",
-        description: "Projet backend / API.",
+        description: { details: "Projet backend / API." },
     },
 ];

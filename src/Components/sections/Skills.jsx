@@ -39,7 +39,7 @@ const Skills = () => {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
                 Compétences
             </h2>
-            <p className="text-gray-600 dark:text-gray-400 max-w-2xl mb-12">
+            <p className="text-gray-600 text-sm md:text-base dark:text-gray-400 max-w-2xl mb-12">
                 Je développe des sites et applications web & mobiles
                 performants, maintenables et pensés pour offrir une vraie valeur
                 aux utilisateurs.
@@ -60,7 +60,7 @@ const Skills = () => {
                         <p className="font-medium text-primary-600 mb-2">
                             {skill.technologies}
                         </p>
-                        <p className="text-gray-600 dark:text-gray-400">
+                        <p className="text-gray-600 text-sm md:text-base dark:text-gray-400">
                             {skill.description}
                         </p>
                     </Card>

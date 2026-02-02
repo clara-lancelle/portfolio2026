@@ -31,6 +31,7 @@ export default function AppNavbar() {
             <NavbarCollapse>
                 <NavbarLink href="/#me">Profil</NavbarLink>
                 <NavbarLink href="/#skills">Compétences</NavbarLink>
+                <NavbarLink href="/#projects">Projets</NavbarLink>
                 <NavbarLink href="/cv">CV</NavbarLink>
                 <NavbarLink href="/#contact">Contact</NavbarLink>
             </NavbarCollapse>

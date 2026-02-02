@@ -15,7 +15,7 @@ export default function Contact() {
                 Contactez-moi
             </h2>
 
-            <p className="text-gray-700 text-center mb-10">
+            <p className="text-gray-700 text-sm md:text-base text-center mb-10">
                 Vous souhaitez discuter d’un projet web ou mobile, ou simplement
                 me poser une question ? Je suis développeuse web et mobile
                 freelance et je serai ravie de vous répondre.
